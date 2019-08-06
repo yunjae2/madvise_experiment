@@ -57,7 +57,7 @@ void exp_2(void)
 
 	int page_size = getpagesize();
 
-	printf("# Exp 2. mem swap-in latency with vs withoud madvise\n");
+	printf("# Exp 2. mem swap-in latency with vs without madvise\n");
 	printf("System memory (GiB): ");
 	scanf("%ld", &sys_mem);
 	printf("Target memory (to allocate, GiB): ");
